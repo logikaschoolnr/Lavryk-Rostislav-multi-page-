@@ -12,6 +12,9 @@ body {
             background-position: center;
             background-attachment: fixed; 
             background-repeat: no-repeat;  
+    
+    height:100vh;
+
 }
   .wrapper {
             display: flex;
@@ -70,4 +73,5 @@ body {
   /* Напиши медіазапит для екранів менше 600px */
 
  
+
 
