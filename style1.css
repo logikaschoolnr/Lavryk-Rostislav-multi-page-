@@ -7,8 +7,18 @@ body {
     height: 100vh; /* Висота на весь екран */
     margin: 0;  
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTofPAJsKdqNmXSTQLxEOoXVi_CbOygnelnlQ&s");
-  }
-  
+            background-size: cover; 
+            background-position: center;
+            background-attachment: fixed; 
+            background-repeat: no-repeat;  
+}
+  .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
   header{
       display: flex;
       display:block;
@@ -57,4 +67,5 @@ body {
   }
   /* --- 📱 ТВОЯ РОБОТА ПОЧИНАЄТЬСЯ ТУТ --- */
   /* Напиши медіазапит для екранів менше 600px */
+
  
